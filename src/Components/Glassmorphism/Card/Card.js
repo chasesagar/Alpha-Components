@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import './Card.css';
 // icons import
 import  * as FaIcons  from "react-icons/fa";
@@ -19,17 +19,26 @@ function Tilt(props) {
 }
 
 export default function Card() {
+    const [card, setCard] = useState(true)
+    
+    const handleClick = () => {
+        setCard(!card)
+    }
+    return (
+        <>
+        {card ? <CardFront handleClick={handleClick} /> : <CardBack  handleClick={handleClick} /> }
+        </>
+    )
+}
+
+function CardFront(props) {
     const options = {
         scale: 1.2,
         speed: 1000,
         max: 25,
     };
-    const handleClick = () => {
-        <CardBack />
-    }
     return (
         <>
-            
             <section>
                 <div className="container">
                     <Tilt options={options}>
@@ -47,21 +56,18 @@ export default function Card() {
                             </div>
                             <ul className="sci">
                                 <li>
-                                    <a onClick={handleClick}><FaIcons.FaBirthdayCake /></a>
+                                    <a onClick={props.handleClick}><FaIcons.FaBirthdayCake /></a>
                                 </li>
                             </ul>
                         </div>
                     </Tilt>
                 </div>
             </section>
-            
         </>
     )
 }
 
-
-
-function CardBack() {
+function CardBack(props) {
     const options = {
         scale: 1.2,
         speed: 1000,
@@ -77,13 +83,14 @@ function CardBack() {
                                 <div className="contentBx">
                                     <h3>Special Prachi 
                                         <br />
-                                        <span>Happy Birthday</span>
+                                        <br />
+                                        <span>Now that your life has one less year, I hope that this birthday will push you to go for your dreams which you have been contemplating for the last 5 years. Time and circumstances will never be perfect to take upon the action. Enjoy the Birthday but also know that life is precious and often flows by very quickly.So keep smiling Girl and be Yourself.</span>
                                     </h3>
                                 </div>
                             </div>
                             <ul className="sci">
                                 <li>
-                                    <a href="#"><FaIcons.FaBirthdayCake /></a>
+                                    <a onClick={props.handleClick}><FaIcons.FaBirthdayCake /></a>
                                 </li>
                             </ul>
                         </div>
