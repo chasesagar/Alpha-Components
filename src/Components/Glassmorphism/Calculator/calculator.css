@@ -1,0 +1,68 @@
+
+.calculator-grid {
+    position: relative;
+    display: grid;
+    overflow: hidden;
+    z-index: 1;
+    grid-template-columns: repeat(4, 90px);
+    grid-template-rows: minmax(150px, auto) repeat(5, 80px);
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: 5px 5px 30px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    backdrop-filter: blur(15px);
+}
+
+.calculator-grid > button {
+    cursor: pointer;
+    font-size: 1.8rem;
+    border: hidden;
+    outline: none;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.08);
+    font-weight: 300;
+    /* border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    border-right: 1px solid rgba(255, 255, 255, 0.05); */
+}
+
+.calculator-grid > button:hover {
+    transition: 0s;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.calculator-grid > button:active {
+    background: #14ff47;
+    color: #192f00;
+    font-size: 1.9rem;
+    font-weight: 500;
+}
+
+.span-two {
+    grid-column: span 2;
+}
+
+.output {
+    grid-column: 1 / -1;
+    background: rgba(255, 255, 255, 0.08);
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    border-right: 1px solid rgba(255, 255, 255, 0.05);
+
+}
+
+.output .previous-operand {
+    color: rgba(255, 255, 255, .75);
+    font-size: 1.5rem;
+}
+
+.output .current-operand {
+    color: white;
+    font-size: 2.2rem;
+    font-weight: 500;
+}
