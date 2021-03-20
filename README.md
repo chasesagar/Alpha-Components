@@ -1,5 +1,5 @@
 # Alpha-Components
-A library for react or javascript based designed components whic are ready to use. Include both logicand styling components support which i have right now is GlassMoprhism based components. Advanced React **Calaculator, Glassmorphism-card, GlassMorphism Based Side Navigation Bar** See [demo](#demo)
+A library for react or javascript-based designed components which are ready to use. Include both logic and styling components support which I have right now is GlassMoprhism based components. **Advanced React Calculator, Glassmorphism-card, GlassMorphism Based Side Navigation Bar**. See [demo](#demo)
 
 ## About
 
@@ -57,12 +57,11 @@ npm start
 
 
 ## Demo
-* GlassMorphism Calculatro
-![Create Image](https://github.com/chasesagar/Alpha-Components/blob/master/demo/calc-img.png)
+* GlassMorphism Calculator
+![Calc Image](https://github.com/chasesagar/Alpha-Components/blob/master/demo/calc-img.png)
 <br />
 
-* List of all users 
-![List Image](https://github.com/chasesagar/Alpha-Components/blob/master/demo/calc-gif.gif)
+![Calc Calculator](https://github.com/chasesagar/Alpha-Components/blob/master/demo/calc-gif.gif)
 <br />
 
 ## Quick Start
@@ -109,6 +108,6 @@ See also the list of contributors who participated in this project.
 This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/chasesagar/Alpha-Components/blob/master/LICENSE) file for details
 
 ## Acknowledgements
-To learn React, check out the [React documentation](https://reactjs.org/).
-* **Shama houge full stack development**
+* To learn React, check out the [React documentation](https://reactjs.org/).
+
 
