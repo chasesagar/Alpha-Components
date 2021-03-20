@@ -1,70 +1,114 @@
-# Getting Started with Create React App
+# Alpha-Components
+A library for react or javascript based designed components whic are ready to use. Include both logicand styling components support which i have right now is GlassMoprhism based components. Advanced React **Calaculator, Glassmorphism-card, GlassMorphism Based Side Navigation Bar** See [demo](#demo)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About
 
-## Available Scripts
+Standalone react components created using `MongoDB` `Express`, `Node`,`JWT`, `Nodemon`, `Mongoose`, `Redux`, `React-icons`, `React-router`,and some other modules which together allows operations like these and soo much more.
 
-In the project directory, you can run:
 
-### `npm start`
+## Languages and Tools Used:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<img align="left" alt="Visual Studio Code" width="35px"   src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" />
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<img align="left" alt="HTML5" width="35px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
 
-### `npm test`
+<img align="left" alt="CSS3" width="35px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<img align="left" alt="JavaScript" width="35px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />
 
-### `npm run build`
+<img align="left" alt="React" width="35px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" />
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<img align="left" alt="Node.js" width="35px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png" />
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+<img align="left" alt="Git" width="35px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png" />
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<img align="left" alt="GitHub" width="35px" src="https://www.flaticon.com/svg/static/icons/svg/25/25231.svg" />
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<img align="left" alt="Terminal" width="35px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" />
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<br />
+<br />
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## Running the Server Side Application
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* Ensure you have [NPM](https://github.com/npm/npm) installed.
 
+* Download or Clone Repository from [here](#quick-start)
+
+* Install required `node-modules` by running below command
+
+````
+npm install
+````
+
+* Boot the localhost server using command:
+
+````
+npm start
+````
+
+* The server is now running at [localhost:3000](localhost:3000)
+
+<br />
+<br />
+
+
+## Demo
+* GlassMorphism Calculatro
+![Create Image](https://github.com/chasesagar/Alpha-Components/blob/master/demo/calc-img.png)
+<br />
+
+* List of all users 
+![List Image](https://github.com/chasesagar/Alpha-Components/blob/master/demo/calc-gif.gif)
+<br />
+
+## Quick Start
+
+- [Download from Github](https://github.com/chasesagar/Alpha-Components/archive/master.zip).
+- Clone the repo: `git clone https://github.com/chasesagar/Alpha-Components.git`.
+
+
+
+
+## Browser Support
+
+<img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/chrome-logo.png?raw=true" width="35" height="35"> <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/firefox-logo.png" width="35" height="35"> <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/edge-logo.png" width="35" height="35"> <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/safari-logo.png" width="35" height="35"> <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/opera-logo.png" width="35" height="35">
+
+## Authors
+**Sagar Saini** - *Initial work* - [ChaseSagar](http://chasesagar.me/me)
+See also the list of contributors who participated in this project.
+
+## Connect with me:
+
+[<img align="left" alt="codeSTACKr.com" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />](http://chasesagar.me/me)
+
+<p>&nbsp;</p>
+
+[<img align="left" alt="codeSTACKr | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />](https://twitter.com/sagar__saini)
+
+<p>&nbsp;</p>
+
+[<img align="left" alt="codeSTACKr | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />](https://www.linkedin.com/in/chasesagar/)
+
+<p>&nbsp;</p>
+
+[<img align="left" alt="codeSTACKr | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />](https://www.instagram.com/sagar__saini)
+
+<p>&nbsp;</p>
+
+[<img align="left" alt="codeSTACKr | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/facebook.svg" />](https://www.facebook.com/Chasesagar)
+
+<br />
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/chasesagar/Alpha-Components/blob/master/LICENSE) file for details
+
+## Acknowledgements
 To learn React, check out the [React documentation](https://reactjs.org/).
+* **Shama houge full stack development**
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
